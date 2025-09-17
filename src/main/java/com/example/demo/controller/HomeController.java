@@ -10,7 +10,7 @@ import lombok.extern.slf4j.Slf4j;
 public class HomeController {
 	@GetMapping("/")
 	public String index() {
-		log.info("실행3");
+		log.info("실행4");
 		return "index";
 	}
 }
